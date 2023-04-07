@@ -1,0 +1,18 @@
+.links-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .links-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .links-right > *:first-child {
+    margin-right: auto;
+  }
+  
+  .links-right > * {
+    margin-left: 10px;
+  }
